@@ -1,0 +1,52 @@
+.li {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.input {
+    display: none;
+}
+
+.label {
+    position: relative;
+    display:  inline-block;
+    height: 26px;
+    width: 26px;
+    border: 1px solid rgba(108, 99, 255, 1);
+}
+
+.input:checked + .label::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(108, 99, 255, 1);
+    ;
+
+}
+
+.input:checked + .label::after {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 14px;
+    height: 7px;
+
+    transform: rotate(-45deg);
+}
+
+.btn{
+    background: none;
+}
+
+.button {
+   
+    padding: 3px 3px 2px 2px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: none;
+}

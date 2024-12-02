@@ -1,0 +1,31 @@
+.btn {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+	font-weight: 900;
+	background-color: #6C63FF;
+	padding: 10px;
+	border-radius: 10px;
+	transition: background-color .2s ease;
+}
+
+.btn:hover {
+	background-color: #4a44b0;
+}
+
+
+.active {
+
+	font-weight: bold;
+	background-color: #ffffff;
+}
+
+
+.div {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 20px;
+}
